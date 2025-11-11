@@ -43,7 +43,7 @@ The goal of this website is to provide an interactive and visually appealing way
 4. **Contact & Social Links**  
    - Quick access to my LinkedIn, GitHub, and other relevant platforms.
 
-5. **Blog Posts**  
+5. **Certificates Posts**  
    - Upcoming or existing posts sharing insights, tutorials, and project highlights.
 
 ---
