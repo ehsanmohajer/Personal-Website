@@ -12,10 +12,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-
+    <!-- -------------------------------- -->
 <body>
   <main>
+
     <aside class="sidebar" data-sidebar>
+      <!--  -->
       <div class="sidebar-info">
         <figure class="avatar-box">
           <img src="./assets/images/avatar.png" alt="my-avatar" width="80">
@@ -30,56 +32,78 @@
           <ion-icon name="chevron-down"></ion-icon>
         </button>
       </div>
+      <!--  -->
       <div class="sidebar-info_more" style="color: white;">
-        <div class="separator"> Contact Info:</div>
-        <br>
-        <ion-icon name="logo-whatsapp" style="vertical-align: middle; margin-right: 8px;"></ion-icon>+358 40 818 9294
-        <br> <br>
-        <ion-icon name="mail-outline" style="vertical-align: middle; margin-right: 8px;">Email:</ion-icon>
-        <a href="mailto:ehsanmohajer066@gmail.com" style="color: white;">ehsanmohajer066@gmail.com</a>
-      
+        <div class="separator"></div>
+        <h3 class="h3" style="text-align: center;">Contact Info</h3>
         <div class="separator"></div>
         <ul class="social-list">
+          <!--  -->
+          <li class="social-item">
+            <a href="mailto:ehsanmohajer066@gmail.com" class="social-link" target="_blank">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://wa.me/358408189294" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
           <li class="social-item">
             <a href="https://www.linkedin.com/in/ehsan-mohajer-k/" class="social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
+          
           <li class="social-item">
             <a href="https://github.com/ehsanmohajer" class="social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
+          
         </ul>
       </div>
     </aside>
-
+    <!-- -------------------------------- -->
     <div class="main-content">
+      
       <nav class="navbar">
+        <!--  -->
         <ul class="navbar-list">
           <li class="navbar-item">
             <button class="navbar-link active" data-nav-link>About</button>
           </li>
+          
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
+          
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
+          
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Certificates</button>
           </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
         </ul>
       </nav>
 
+      <!--  -->
       <article class="about active" data-page="about">
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
-
-        <section class="about-text">
+ 
+         <section class="about-text">
           <p>
-            Hi, I'm Ehsan Mohajer. 👋 <br><br>
+            Hi, I'm Ehsan Mohajer but people called me Sani. 👋 <br><br>
             I am a proactive and collaborative professional with experience in strengthening cooperation between students and companies in the Jyväskylä region.
             <br><br>
             I have a proven ability to organize career trips, provide consulting through programs like University of Applied Sciences and Startup Factory, and facilitate networking events such as Hackathons. I also have experience in customer service, supporting local residents at Digital Center in Viitasaari city with AI-based solutions.
@@ -170,7 +194,7 @@
         </section>
 
       </article>
-
+      <!--  -->
       <article class="resume" data-page="resume">
         <header>
           <h2 class="h2 article-title">Resume</h2>
@@ -277,8 +301,9 @@
           </ul>
         </section>
       </article>
-
+      <!--  -->
       <article class="portfolio" data-page="portfolio">
+
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
@@ -404,11 +429,13 @@
           </ul>
         </section>
       </article>
-
+      <!--  -->
       <article class="certificates" data-page="certificates">
+
         <header>
           <h2 class="h2 article-title">Certificates</h2>
         </header>
+        
         <section class="timeline">
           <ol class="timeline-list">
             <li class="timeline-item">
@@ -443,6 +470,18 @@
         </section>
       </article>
 
+      <article class="CV" data-page="cv">
+        <header>
+          <h2 class="h2 article-title">My Resume</h2>
+        </header>
+ 
+        <section class="about-text">
+           <a href="./assets/images/Ehsan_Mohajer_CV.pdf" target="_blank" style="color: white; font-size: 18px; text-decoration: underline;">
+             Download My CV (PDF)
+           </a>
+        </section>
+      </article>
+      <!--  -->   
     </div>
   </main>
   <script src="./assets/js/script.js"></script>
